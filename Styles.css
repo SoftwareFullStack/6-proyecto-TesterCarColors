@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    cursor: default;
+}
+
+/* CONTENEDOR */
+.contPadre{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url("img.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #808080;
+}
+
+.lista{
+    width: 100%;
+    height: 50px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* MENU */
+.item{
+    /* width: 20%; */
+    width: 14%;
+    height: 100%;
+    float: left;
+    list-style: none;
+    mix-blend-mode: hue;
+}
+
+.lista:hover .item{
+    opacity: 0;
+}
+
+.lista .item:hover{
+    opacity: 1;
+}
+
+
+
+
+/* COLOR MENU */
+.item:nth-child(1){
+    /* background-color: #FF5500; */
+    background-color: #FF5500;
+}
+
+.item:nth-child(2){
+    background-color: #5F1CE4;
+}
+
+.item:nth-child(3){
+    background-color: #00B3B3;
+}
+
+.item:nth-child(4){
+    background-color: #40B307;
+}
+
+.item:nth-child(5){
+    background-color: #E645A0;
+}
+
+.item:nth-child(6){
+    background-color: #0E2F6D;
+}
+
+.item:nth-child(7){
+    background-color: #502902;
+}
+
+/* HOVER DEL MENU */
+.item:hover:nth-child(1){
+    box-shadow: 0 0 0 1700px #FF5500;
+}
+
+.item:hover:nth-child(2){
+    box-shadow: 0 0 0 1700px #5F1CE4;
+}
+
+.item:hover:nth-child(3){
+    box-shadow: 0 0 0 1700px #00B3B3;
+}
+
+.item:hover:nth-child(4){
+    box-shadow: 0 0 0 1700px #40B307;
+}
+
+.item:hover:nth-child(5){
+    box-shadow: 0 0 0 1700px #E645A0;
+}
+
+.item:hover:nth-child(6){
+    box-shadow: 0 0 0 1700px #0E2F6D;
+}
+
+.item:hover:nth-child(7){
+    box-shadow: 0 0 0 1700px #502902;
+}
